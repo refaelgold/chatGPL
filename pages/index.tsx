@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import styles from '@/styles/Home.module.css'
 
 
 export default function Home() {
-function handleSubmit(){return}
 
 
   return (
@@ -14,7 +12,7 @@ function handleSubmit(){return}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
+      <main>
           <div className="mt-5 md:col-span-2 md:mt-0">
               <form action="#" method="POST">
                   <div className="shadow sm:overflow-hidden sm:rounded-md">
