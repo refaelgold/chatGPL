@@ -25,7 +25,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="justify-center md:w-1/2 m-auto ">
+      <main className="justify-center md:w-1/2 m-auto">
           <Image
               className='my-10 mx-3'
               src='/OpenAI_Logo.svg'
@@ -61,7 +61,7 @@ export default function Home() {
                       <div className="bg-gray-50 px-4 py-3 text-right sm:px-6">
                           <button
                               type="submit"
-                              className="inline-flex justify-center rounded-md border border-transparent bg-indigo-600 py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                              className="inline-flex justify-center rounded-md border border-transparent bg-shinypurple py-2 px-4 text-sm font-medium text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                           >
                               Save
                           </button>
