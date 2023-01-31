@@ -1,15 +1,9 @@
 import Head from 'next/head'
-import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
-
-const inter = Inter({ subsets: ['latin'] })
-
-
-
 
 
 export default function Home() {
-// function handleSubmit(){return}
+function handleSubmit(){return}
 
 
   return (
@@ -21,24 +15,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-          {/*<form onSubmit={handleSubmit}>*/}
-          {/*    <input*/}
-          {/*        name="email"*/}
-          {/*        type="email"*/}
-          {/*        placeholder="Enter email"*/}
-          {/*        required*/}
-          {/*    />*/}
-          {/*    <textarea*/}
-          {/*        name="message"*/}
-          {/*        placeholder="Enter message"*/}
-          {/*        required*/}
-          {/*    />*/}
-          {/*    <input*/}
-          {/*        name="bot-field"*/}
-          {/*        type="text"*/}
-          {/*    />*/}
-          {/*    <button type="submit">Send</button>*/}
-          {/*</form>*/}
+          <form onSubmit={handleSubmit}>
+              <input
+                  name="email"
+                  type="email"
+                  placeholder="Enter email"
+                  required
+              />
+              <textarea
+                  name="message"
+                  placeholder="Enter message"
+                  required
+              />
+              <input
+                  name="bot-field"
+                  type="text"
+              />
+              <button type="submit">Send</button>
+          </form>
       </main>
     </>
   )
