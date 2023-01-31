@@ -27,7 +27,7 @@ export default function Home() {
       </Head>
       <main className="justify-center md:w-1/2 m-auto">
           <Image
-              className='my-10 mx-3'
+              className='mt-10 mx-3'
               src='/OpenAI_Logo.svg'
               alt="Picture of the author"
               width={WindowWidth > 1280 ?  1280 : 200}
@@ -51,7 +51,7 @@ export default function Home() {
                                       id="question"
                                       name="question"
                                       rows={3}
-                                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm"
+                                      className="mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-500 focus:ring-indigo-500 sm:text-sm p-2"
                                       placeholder="Ask whatever you wish to ask for"
                                       defaultValue={''}
                                   />
